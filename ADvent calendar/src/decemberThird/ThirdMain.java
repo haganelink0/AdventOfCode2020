@@ -60,7 +60,7 @@ public class ThirdMain {
 			positionThree+=5;
 		}
 		System.out.println(thirdTreeCount);
-		
+		 
 		int positionFour = 0;
 		int fourthTreeCount = 0;
 		for (int i = 0; i < treeMap.size(); i++) {
