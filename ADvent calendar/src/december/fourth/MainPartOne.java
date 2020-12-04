@@ -1,7 +1,6 @@
 package december.fourth;
 
 import java.io.File;
-import java.io.FileReader;
 import java.util.*;
 
 public class MainPartOne {
@@ -30,7 +29,7 @@ public class MainPartOne {
 					passports.add(sb.toString());
 			}
 					
-					
+			fileReader.close();		
 		} catch(Exception e) {
 			System.out.println(e.toString());
 		}
